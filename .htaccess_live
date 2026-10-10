@@ -1,0 +1,139 @@
+# invoke rewrite engine
+RewriteEngine On
+RewriteBase /
+
+Options -Indexes
+<IfModule mod_negotiation.c>
+	Options -MultiViews
+</IfModule>
+
+# Redirect to non-www
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# redirect all extension to html
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.shtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.phtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.htm$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.php$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.aspx$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.asp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jsp$ $1.html [L,NC,R=301]
+
+# Add a trailing slash (/) to a URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]*$
+RewriteRule .*[^/]$ %{REQUEST_URI}/ [L,R=301]
+
+# Create pretty URLs
+RewriteRule ^([^/]+)/$ $1.html
+RewriteRule ^([^/]+)/([^/]+)/$ $1/$2.html
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3.html
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4.html
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5.html
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6.html
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7.html
+
+RewriteRule ^index.html$ / [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=4$
+RewriteRule ^[\/]?$ page_id_4/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=6$
+RewriteRule ^[\/]?$ page_id_6/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=7$
+RewriteRule ^[\/]?$ page_id_7/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=8$
+RewriteRule ^[\/]?$ page_id_8/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=9$
+RewriteRule ^[\/]?$ page_id_9/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=10$
+RewriteRule ^[\/]?$ page_id_10/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=211$
+RewriteRule ^[\/]?$ page_id_211/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=213$
+RewriteRule ^[\/]?$ page_id_213/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=215$
+RewriteRule ^[\/]?$ page_id_215/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=217$
+RewriteRule ^[\/]?$ page_id_217/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=219$
+RewriteRule ^[\/]?$ page_id_219/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=221$
+RewriteRule ^[\/]?$ page_id_221/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=223$
+RewriteRule ^[\/]?$ page_id_223/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=225$
+RewriteRule ^[\/]?$ page_id_225/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=227$
+RewriteRule ^[\/]?$ page_id_227/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=230$
+RewriteRule ^[\/]?$ page_id_230/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=232$
+RewriteRule ^[\/]?$ page_id_232/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=234$
+RewriteRule ^[\/]?$ page_id_234/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=240$
+RewriteRule ^[\/]?$ page_id_240/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=244$
+RewriteRule ^[\/]?$ page_id_244/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=15$
+RewriteRule ^[\/]?$ page_id_15/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=13$
+RewriteRule ^[\/]?$ page_id_13/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=14$
+RewriteRule ^[\/]?$ page_id_14/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=163$
+RewriteRule ^[\/]?$ page_id_163/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=25$
+RewriteRule ^[\/]?$ page_id_25/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=19$
+RewriteRule ^[\/]?$ page_id_19/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=21$
+RewriteRule ^[\/]?$ page_id_21/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=22$
+RewriteRule ^[\/]?$ page_id_22/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=23$
+RewriteRule ^[\/]?$ page_id_23/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=24$
+RewriteRule ^[\/]?$ page_id_24/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=73$
+RewriteRule ^[\/]?$ page_id_73/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=16$
+RewriteRule ^[\/]?$ page_id_16/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=17$
+RewriteRule ^[\/]?$ page_id_17/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=20$
+RewriteRule ^[\/]?$ page_id_20/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=151$
+RewriteRule ^[\/]?$ page_id_151/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^attachment_id\=566$
+RewriteRule ^[\/]?$ attachment_id_566/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=189$
+RewriteRule ^[\/]?$ page_id_189/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=192$
+RewriteRule ^[\/]?$ page_id_192/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=194$
+RewriteRule ^[\/]?$ page_id_194/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=196$
+RewriteRule ^[\/]?$ page_id_196/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=198$
+RewriteRule ^[\/]?$ page_id_198/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=200$
+RewriteRule ^[\/]?$ page_id_200/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=203$
+RewriteRule ^[\/]?$ page_id_203/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=206$
+RewriteRule ^[\/]?$ page_id_206/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=208$
+RewriteRule ^[\/]?$ page_id_208/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id\=11$
+RewriteRule ^[\/]?$ page_id_11/? [L,R=301]
+RewriteRule ^robots\.txt$ robots-txt/? [L,R=301]
+RewriteCond %{QUERY_STRING} ^ver\=4\.2\.14$
+RewriteRule ^wp\-content\/themes\/cloudy\-blue\-sky\/cloudy\.js$ wp-content/themes/cloudy-blue-sky/cloudy-js_ver_4-2-14/? [L,R=301]

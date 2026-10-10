@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<pagescount>
+	<html_total>72</html_total>
+	<html_done>72</html_done>
+	<img>121</img>
+	<js>30</js>
+	<css>12</css>
+	<pdf>2</pdf>
+	<doc/>
+	<xls/>
+	<ppt/>
+	<swf>1</swf>
+	<mp3>2</mp3>
+	<mp4/>
+	<xml/>
+	<json/>
+	<txt/>
+	<fonts>21</fonts>
+	<scraping_reload>1</scraping_reload>
+	<is_pretty_url>true</is_pretty_url>
+	<is_ebn>false</is_ebn>
+	<email>correo.gestiones@gmail.com</email>
+	<theme_name>6jdwrfiqhf7jfym0xwp7tt83583</theme_name>
+	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/live/div-misericordia.com_correo.gestiones_gmail.com_24eurqt3ceg/</server_url_front_page>
+	<no_www_url>div-misericordia.com</no_www_url>
+	<hosted_domain/>
+	<original_archive_url>https://web.archive.org/web/20160811132100/https://www.div-misericordia.com/?page_id=11</original_archive_url>
+	<final_archive_url>https://web.archive.org/web/20160811132100/https://www.div-misericordia.com/%3Fpage_id%3D11</final_archive_url>
+	<front_page_code_date>20160811132100</front_page_code_date>
+	<total_urls_from_api/>
+	<max_reached_live>false</max_reached_live>
+	<scrape_other_captures>search_ended</scrape_other_captures>
+	<total_size>40312</total_size>
+</pagescount>

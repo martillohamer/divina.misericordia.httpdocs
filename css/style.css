@@ -1,0 +1,408 @@
+/* CSS Document */
+
+
+body {
+	height: 100%;	
+	background-position:top center;
+	background-repeat:repeat-x;
+	background-color:#D7F4F3;
+}
+
+.parrafo-error {
+	font-family:Arial;
+	font-size:10px;
+	color:#FF0000;
+	text-decoration:none;
+}
+
+.contenedor {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	top:0px;
+	height:100%;
+	/*top:0px;*/
+	width:100%;	
+}
+
+.tablaPortada {
+	width:1000px;		
+	background-position:center;
+	background-repeat:none;	
+}
+
+.info {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	color:#754021;
+}
+
+.intro {
+	font-family:"Century Gothic";
+	font-size:11px;
+	text-decoration:none;	
+	color:#505050;
+}
+
+
+.intro:hover {
+	font-family:"Century Gothic";
+	font-size:11px;
+	text-decoration:underline;	
+	color:#505050;
+}
+
+.intro-portada {
+	font-family:"Century Gothic";
+	font-size:16px;
+	text-decoration:none;	
+	color:#505050;
+}
+
+
+.intro-portada:hover {
+	font-family:"Century Gothic";
+	font-size:16px;
+	text-decoration:underline;	
+	color:#505050;
+}
+
+
+.info2 {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	color:#d6d6d6;
+}
+
+.info3 {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	color:#80c5d5;
+}
+
+.title-info {
+	font-family:"Century Gothic";
+	font-size:18px;	
+	font-weight:bold;
+}
+
+.lecturas {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	font-weight:bold;
+	text-decoration:none;
+	color:#80c5d5;
+}
+
+.enlaces {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	font-weight:bold;
+	text-decoration:none;
+	color:#80c5d5;
+}
+
+.enlaces a {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	font-weight:bold;
+	text-decoration:none;
+	color:#80c5d5;
+}
+
+.enlaces:hover {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	font-weight:bold;
+	color:#66939e;
+}
+
+.enlaces a:hover {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	font-weight:bold;
+	color:#66939e;
+}
+
+.enlacesCoronilla {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	color:#80c5d5;
+	font-weight:bold;
+}
+
+.enlacesCoronilla:hover {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	color:#66939e;
+	font-weight:bold;
+}
+
+.enlacesCoronilla:visited {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	color:#66939e;
+	font-weight:bold;
+}
+
+.enlacesCoronilla:link {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	color:#66939e;
+	font-weight:bold;
+}
+
+.linkLetania {
+	text-decoration:none;
+}
+
+.fines {
+	font-family:"Century Gothic";
+	font-size:16px;	
+	font-weight:bold;
+	color:#66939e;
+}
+
+.textosIntroducidos {
+	font-family:"Century Gothic";
+	font-size:14px;	
+	font-weight:bold;
+	color:#66939e;
+}
+
+.Leer a {
+	font-family:"Century Gothic";
+	font-size:15px;	
+	color:#2f6f6f;
+	text-decoration:none;
+}
+
+.Leer a:hover {
+	font-family:"Century Gothic";
+	font-size:15px;	
+	color:#183a3a;
+	text-decoration:underline;
+}
+
+.Leer {
+	font-family:"Century Gothic";
+	font-size:15px;	
+	color:#2f6f6f;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.Leer :hover {
+	font-family:"Century Gothic";
+	font-size:15px;	
+	color:#183a3a;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.LeerDescrip {
+	font-family:"Century Gothic";
+	font-size:12px;	
+	color:#2f6f6f;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.LeerDescrip :hover {
+	font-family:"Century Gothic";
+	font-size:12px;	
+	color:#183a3a;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.tablaInterior {
+	width:800px;
+}
+
+.parrafo-pie {
+	font-family: Arial;
+	font-size: 12px;
+	color:  #754021;
+	font-weight:bold;
+	text-decoration: none;
+}
+.parrafo-pie:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color:  #754021;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+.parrafo-pie1 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #dadada;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.parrafo-pie2 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #999999;
+	text-decoration: none;
+}
+
+.pie-g {
+	font-family:Arial;
+	font-size:11px;
+	color:#925532;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.pie-g:hover {
+	font-family:Arial;
+	font-size:11px;
+	color:#925532;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.titularPPrivada {
+	font-family: "Century Gothic";
+	font-size: 12px;
+	font-weight:bold;
+	color: #754021;
+}
+
+.padre {
+	color:#0242a4;
+	font-size:16px;
+	font-family:Century Gothic;
+	cursor:pointer;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+.oculto {
+	font-size:16px;
+	font-family:"Lucida Sans";
+	color:#333333;
+	background-color:#f7f7f7;
+	display:none; 
+	cursor:text;
+	padding:10px;
+	width:900px;
+}
+
+.PAzul {
+	color:#160c67;
+	font-family:"Century Gothic";
+	font-size:16px;	
+}
+
+.PVerde {
+	color:#045c2a;
+	font-family:"Century Gothic";
+	font-size:16px;
+	font-weight:bold;
+}
+
+.Titulo {
+	color:#f22e82;
+	font-family:"Century Gothic";
+	font-size:19px;
+	font-weight:bold;
+}
+
+.TituloQ {
+	color:#f22e82;
+	font-family:"Century Gothic";
+	font-size:24px;
+	font-weight:bold;
+}
+
+
+.Titulo-small {
+	color:#f22e82;
+	font-family:"Century Gothic";
+	font-size:11px;
+}
+
+.VC {
+	height:458px;
+}
+
+.M-VC {
+	font-family:"Century Gothic";
+	font-weight:bolder;
+	size:14px;
+	width:150px;
+}
+
+.M-VC a {
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-weight:bolder;
+	size:14px;
+	width:150px;
+}
+
+.M-VC a:hover {
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-weight:bolder;
+	size:14px;
+	width:150px;
+}
+
+.M-VC a:visited {
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-weight:bolder;
+	size:14px;
+	width:150px;
+}
+
+.M-VC a:link {
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-weight:bolder;
+	size:14px;
+	width:150px;
+}
+
+.imagenoticia {
+	width:100px;
+}
+
+.imageInterior {
+	padding-bottom:10px;
+	padding-right:10px;
+}
+
+.volver 
+{
+	background-image: url(../images/boton.png);		
+	background-position:center center;
+	display:block;
+	font-family:"Century Gothic";
+	/*font-weight:bold;*/
+	font-size: 12px;
+	color: white;
+	height: 30px;
+	width:105px;
+	line-height:30px;
+	padding: 0 0 0 0px;
+	text-decoration: none;
+	text-align:center;
+}
+.volver:hover 
+{
+	background-image: url(../images/boton-h.png);
+	background-position:center center;
+	font-family:"Century Gothic";
+	font-size: 12px;
+	width:105px;
+	color: #a1752e;
+	text-decoration: none;
+	text-align:center;
+}
